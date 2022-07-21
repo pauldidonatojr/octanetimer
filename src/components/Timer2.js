@@ -112,13 +112,13 @@ const Wrapper = styled.div`
     margin: 0;
     font-family: 'Roboto';
   }
-  .title:hover {
+  /* .title:hover {
     background-color: #63d2ff;
     width: 200px;
     height: 200px;
     transform: rotate(180deg);
     font-size: 3rem;
-  }
+  } */
   .subtitle {
     max-width: 576px;
     margin: 36px auto;

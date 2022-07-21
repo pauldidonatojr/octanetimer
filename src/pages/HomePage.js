@@ -1,10 +1,11 @@
 import React from 'react'
-import { Timer } from '../components'
+import { Timer, Timer2 } from '../components'
 import styled from 'styled-components'
 function HomePage() {
   return (
     <Wrapper>
-      <Timer />
+      <Timer2 />
+      {/* <Timer /> */}
     </Wrapper>
   )
 }
@@ -12,11 +13,7 @@ function HomePage() {
 const Wrapper = styled.div`
   background: whitesmoke;
 
-
-  padding: 2rem;
-  display: grid;
-  justify-content: center;
-  align-items: center;
+ 
 `
 
 export default HomePage

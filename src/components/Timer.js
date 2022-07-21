@@ -90,5 +90,23 @@ const Wrapper = styled.div`
     width: 435px;
     height: 235px;
   }
+
+  @media (min-width: 576px) {
+  }
+
+  @media only screen and (max-width: 600px) {
+  }
+
+  @media only screen and (min-width: 600px) {
+  }
+
+  @media only screen and (min-width: 768px) {
+  }
+
+  @media (min-width: 992px) {
+  }
+
+  @media (min-width: 1280px) {
+  }
 `
 export default Timer

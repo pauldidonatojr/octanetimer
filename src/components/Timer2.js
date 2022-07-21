@@ -92,20 +92,21 @@ const Wrapper = styled.div`
   .header {
     background: #254864;
     color: white;
-    width: 100vw;
+    width: 80vw;
     height: 5rem;
-    padding: 5rem;
+    padding: 2.5rem;
+    margin-top: 4rem;
     transition: width 2s, height 2s, background-color 2s, transform 2s;
     border-style: solid;
     border-width: 1px;
     display: block;
   }
-  .header:hover {
+  /* .header:hover {
     background-color: #63d2ff;
     width: 200px;
     height: 200px;
     transform: rotate(180deg);
-  }
+  } */
 
   .title {
     margin: 0;

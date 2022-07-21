@@ -113,7 +113,7 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     margin: 0 -8px 0 -8px;
-    
+
   }
 
   .time-section {
@@ -127,7 +127,7 @@ const Wrapper = styled.div`
 
   .time {
     margin: 0;
-    font-size: 60px !important;
+    font-size: 40px !important;
     font-weight: 800 !important;
   }
 

@@ -113,7 +113,7 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     margin: 0 -8px 0 -8px;
-
+    margin-bottom: 9rem;
   }
 
   .time-section {

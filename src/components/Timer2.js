@@ -48,7 +48,7 @@ const Countdown = () => {
   return (
     <Wrapper>
       <header className="header">
-        <h1 className="title">Coming to your nearest chain</h1>
+        <h1 className="title">Coming To Your Nearest Chain</h1>
       </header>
 
       <div className="countdown-wrapper">
@@ -95,12 +95,29 @@ const Wrapper = styled.div`
     width: 100vw;
     height: 5rem;
     padding: 5rem;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+  }
+  .header:hover {
+    background-color: #63d2ff;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
   }
 
   .title {
     margin: 0;
+    font-family: 'Roboto';
   }
-
+  .title:hover {
+    background-color: #63d2ff;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+    font-size: 3rem;
+  }
   .subtitle {
     max-width: 576px;
     margin: 36px auto;

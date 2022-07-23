@@ -12,7 +12,7 @@ const Countdown = () => {
   })
 
   useEffect(() => {
-    setInterval(() => setNewTime(), 1000)
+    setInterval(() => setNewTime(), [])
   }, [])
 
   const setNewTime = () => {

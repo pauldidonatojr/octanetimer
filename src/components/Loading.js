@@ -28,7 +28,7 @@ const Wrapper = styled.div`
     display: grid;
     align-items: center;
     justify-content: center;
-    padding: 4rem;
+    padding: 2rem;
   }
   .logo1 {
     margin-bottom: 8rem;

@@ -31,7 +31,7 @@ const Wrapper = styled.div`
     padding: 2rem;
   }
   .logo1 {
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
     width: 325px;
     height: 275px;
   }
